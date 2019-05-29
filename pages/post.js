@@ -1,6 +1,6 @@
-import Layout from '../components/Layout.js';
-import { withRouter } from 'next/router';
-import Markdown from 'react-markdown';
+import Layout from '../components/Layout.js'
+import { withRouter } from 'next/router'
+import Markdown from 'react-markdown'
 
 export default withRouter(props => (
   <Layout>
@@ -39,4 +39,4 @@ And here's the content.
       }
     `}</style>
   </Layout>
-));
+))
