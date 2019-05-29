@@ -1,5 +1,5 @@
-import { withRouter } from 'next/router'
-import Layout from '../components/Layout.js'
+import { withRouter } from 'next/router';
+import Layout from '../components/Layout.js';
 
 const Content = withRouter(props => (
   <div>
