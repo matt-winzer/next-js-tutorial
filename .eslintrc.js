@@ -3,7 +3,7 @@ module.exports = {
 		'browser': true,
 		'es6': true,
 		'node': true,
-		'commonjs': true,
+		// 'commonjs': true,
 	},
 	'extends': 'eslint:recommended',
 	'globals': {
@@ -21,6 +21,7 @@ module.exports = {
 		'react'
 	],
 	'rules': {
+		'react/jsx-uses-vars': ['error'],
 		'indent': [
 			'error',
 			2
